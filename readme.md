@@ -12,3 +12,12 @@ A curated list of papers and open-source resources focused on 4D reconstruction 
   [📄 Paper](https://arxiv.org/pdf/2011.13961) | [💻 Code](https://github.com/albertpumarola/D-NeRF) | [🌐 Project Page](https://www.albertpumarola.com/research/D-NeRF/index.html)  
 
 
+### 2. [Arxiv '2023] Periodic Vibration Gaussian: Dynamic Urban Scene Reconstruction and Real-time Rendering
+**Authors**: Yurui Chen, Chun Gu, Junzhe Jiang, Xiatian Zhu, Li Zhang
+<details span>
+<summary><b>Abstract</b></summary>
+  Modeling dynamic, large-scale urban scenes is challenging due to their highly intricate geometric structures and unconstrained dynamics in both space and time. Prior methods often employ high-level architectural priors, separating static and dynamic elements, resulting in suboptimal capture of their synergistic interactions. To address this challenge, we present a unified representation model, called Periodic Vibration Gaussian (PVG). PVG builds upon the efficient 3D Gaussian splatting technique, originally designed for static scene representation, by introducing periodic vibration-based temporal dynamics. This innovation enables PVG to elegantly and uniformly represent the characteristics of various objects and elements in dynamic urban scenes. To enhance temporally coherent and large scene representation learning with sparse training data, we introduce a novel temporal smoothing mechanism and a position-aware adaptive control strategy respectively. Extensive experiments on Waymo Open Dataset and KITTI benchmarks demonstrate that PVG surpasses state-of-the-art alternatives in both reconstruction and novel view synthesis for both dynamic and static scenes. Notably, PVG achieves this without relying on manually labeled object bounding boxes or expensive optical flow estimation. Moreover, PVG exhibits 900-fold acceleration in rendering over the best alternative.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2311.18561) | [💻 Code](https://github.com/fudan-zvg/PVG) | [🌐 Project Page](https://fudan-zvg.github.io/PVG/)  
+
