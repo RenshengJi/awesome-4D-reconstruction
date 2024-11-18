@@ -21,3 +21,23 @@ A curated list of papers and open-source resources focused on 4D reconstruction 
 
   [📄 Paper](https://arxiv.org/pdf/2311.18561) | [💻 Code](https://github.com/fudan-zvg/PVG) | [🌐 Project Page](https://fudan-zvg.github.io/PVG/)  
 
+
+### 3. [CVPR '2024] DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes
+**Authors**: Xiaoyu Zhou, Zhiwei Lin, Xiaojun Shan, Yongtao Wang, Deqing Sun, Ming-Hsuan Yang
+<details span>
+<summary><b>Abstract</b></summary>
+  We present DrivingGaussian, an efficient and effective framework for surrounding dynamic autonomous driving scenes. For complex scenes with moving objects, we first sequentially and progressively model the static background of the entire scene with incremental static 3D Gaussians. We then leverage a composite dynamic Gaussian graph to handle multiple moving objects, individually reconstructing each object and restoring their accurate positions and occlusion relationships within the scene. We further use a LiDAR prior for Gaussian Splatting to reconstruct scenes with greater details and maintain panoramic consistency. DrivingGaussian outperforms existing methods in dynamic driving scene reconstruction and enables photorealistic surround-view synthesis with high-fidelity and multi-camera consistency.
+</details>
+
+  [📄 Paper](https://arxiv.org/abs/2312.07920) | [💻 Code](https://github.com/VDIGPKU/DrivingGaussian) | [🌐 Project Page](https://pkuvdig.github.io/DrivingGaussian/)  
+
+
+### 4. [ECCV '2024] Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting
+**Authors**: Yunzhi Yan, Haotong Lin, Chenxu Zhou, Weijie Wang, Haiyang Sun, Kun Zhan, Xianpeng Lang, Xiaowei Zhou, Sida Peng
+<details span>
+<summary><b>Abstract</b></summary>
+  This paper aims to tackle the problem of modeling dynamic urban streets for autonomous driving scenes. Recent methods extend NeRF by incorporating tracked vehicle poses to animate vehicles, enabling photo-realistic view synthesis of dynamic urban street scenes. However, significant limitations are their slow training and rendering speed. We introduce Street Gaussians, a new explicit scene representation that tackles these limitations. Specifically, the dynamic urban scene is represented as a set of point clouds equipped with semantic logits and 3D Gaussians, each associated with either a foreground vehicle or the background. To model the dynamics of foreground object vehicles, each object point cloud is optimized with optimizable tracked poses, along with a 4D spherical harmonics model for the dynamic appearance. The explicit representation allows easy composition of object vehicles and background, which in turn allows for scene editing operations and rendering at 135 FPS (1066 × 1600 resolution) within half an hour of training. The proposed method is evaluated on multiple challenging benchmarks, including KITTI and Waymo Open datasets. Experiments show that the proposed method consistently outperforms state-of-the-art methods across all datasets.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2401.01339) | [💻 Code](https://github.com/zju3dv/street_gaussians) | [🌐 Project Page](https://zju3dv.github.io/street_gaussians/)  
+
