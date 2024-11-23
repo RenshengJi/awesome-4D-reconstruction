@@ -52,3 +52,15 @@ A curated list of papers and open-source resources focused on 4D reconstruction 
 
   [📄 Paper](https://arxiv.org/pdf/2410.03825) | [💻 Code](https://github.com/Junyi42/monst3r) | [🌐 Project Page](https://monst3r-project.github.io/)  
 
+
+### 6. [CVPR '2024] HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting
+**Authors**: Hongyu Zhou, Jiahao Shao, Lu Xu, Dongfeng Bai, Weichao Qiu, Bingbing Liu, Yue Wang, Andreas Geiger, Yiyi Liao
+<details span>
+<summary><b>Abstract</b></summary>
+  Holistic understanding of urban scenes based on RGB images is a challenging yet important problem. It encompasses understanding both the geometry and appearance to enable novel view synthesis, parsing semantic labels, and tracking moving objects. Despite considerable progress, existing approaches often focus on specific aspects of this task and require additional inputs such as LiDAR scans or manually annotated 3D bounding boxes. In this paper, we introduce a novel pipeline that utilizes 3D Gaussian Splatting for holistic urban scene understanding. Our main idea involves the joint optimization of geometry, appearance, semantics, and motion using a combination of static and dynamic 3D Gaussians, where moving object poses are regularized via physical constraints. Our approach offers the ability to render new viewpoints in real-time, yielding 2D and 3D semantic information with high accuracy, and reconstruct dynamic scenes, even in scenarios where 3D bounding box detection are highly noisy. Experimental results on KITTI, KITTI-360, and Virtual KITTI 2 demonstrate the effectiveness of our approach.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2403.12722) | [💻 Code](https://github.com/hyzhou404/HUGS) | [🌐 Project Page](https://xdimlab.github.io/hugs_website/)  
+
+
+
